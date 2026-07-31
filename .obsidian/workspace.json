@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "商科全能知识库_Obsidian搭建手册.md",
+                "file": "商科全能知识库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "商科全能知识库_Obsidian搭建手册"
+              "title": "商科全能知识库"
             }
           }
         ],
@@ -216,7 +216,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "203769121788884d",
+  "active": "49ec8594f6111d55",
   "lastOpenFiles": [
     "未命名.md",
     "商业知识库/基础商业知识.md",
