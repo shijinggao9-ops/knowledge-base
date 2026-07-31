@@ -25,10 +25,14 @@
             "id": "203769121788884d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "商科全能知识库_Obsidian搭建手册.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "商科全能知识库_Obsidian搭建手册"
             }
           }
         ],
@@ -187,8 +191,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           }
         ],
@@ -214,6 +218,7 @@
   },
   "active": "203769121788884d",
   "lastOpenFiles": [
+    "未命名.md",
     "商业知识库/基础商业知识.md",
     "商业知识库",
     "copilot/copilot-conversations/Which_Falls_Faster@20260731_162537.md",
