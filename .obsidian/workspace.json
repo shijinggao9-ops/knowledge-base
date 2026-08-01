@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-MOC/60-前沿视野 MOC.md",
+                "file": "85-岗位图谱/85-12 人力资源与组织发展/85-12-1 TD人才发展.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "60-前沿视野 MOC"
+              "title": "85-12-1 TD人才发展"
+            }
+          },
+          {
+            "id": "75988d3f274273e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "85-岗位图谱/85-2 投资银行与券商.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "85-2 投资银行与券商"
             }
           }
         ]
@@ -202,9 +217,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "49ec8594f6111d55",
+  "active": "7a713efa1943fdd6",
   "lastOpenFiles": [
-    "85-岗位图谱/85-12 人力资源与组织发展/85-12-1_TD人才发展_面试深度拆解.md",
+    "85-岗位图谱/85-0 岗位能力矩阵总表.md",
+    "85-岗位图谱/85-12 人力资源与组织发展/85-12-1 TD人才发展.md",
+    "85-岗位图谱/85-2 投资银行与券商.md",
+    "85-岗位图谱/85-4 快消.md",
+    "01-MOC/60-前沿视野 MOC.md",
     "85-岗位图谱/85-12 人力资源与组织发展.md",
     "99-Archive/Markdown写法完全指南_Obsidian专用.md",
     "85-岗位图谱/85-12 人力资源与组织发展",
@@ -223,7 +242,6 @@
     "01-MOC/85-岗位图谱 MOC.md",
     "01-MOC/80-职业竞争力 MOC.md",
     "01-MOC/70-英语能力 MOC.md",
-    "01-MOC/60-前沿视野 MOC.md",
     "01-MOC/50-AI与数字化 MOC.md",
     "01-MOC/40-思维与认知 MOC.md",
     "01-MOC/30-表达与输出 MOC.md",
@@ -236,9 +254,6 @@
     "90-项目与复盘/90-2 商赛经历",
     "90-项目与复盘/90-1 课程项目",
     "90-项目与复盘",
-    "85-岗位图谱/85-9 风险投资与私募.md",
-    "85-岗位图谱/85-7 商业与数据分析师.md",
-    "85-岗位图谱/85-8 企业战略与战投.md",
     "85-岗位图谱"
   ]
 }
