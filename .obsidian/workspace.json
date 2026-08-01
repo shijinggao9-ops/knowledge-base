@@ -23,21 +23,37 @@
             }
           },
           {
-            "id": "75988d3f274273e3",
+            "id": "d23755ad3c9e9c95",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "85-岗位图谱/85-2 投资银行与券商.md",
+                "file": "85-岗位图谱/85-15 商务达人建联.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "85-2 投资银行与券商"
+              "title": "85-15 商务达人建联"
+            }
+          },
+          {
+            "id": "5dec8b64cd988ae0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "85-岗位图谱/85-12 人力资源与组织发展.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "85-12 人力资源与组织发展"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#S1-初学",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,10 +233,13 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "7a713efa1943fdd6",
+  "active": "d23755ad3c9e9c95",
   "lastOpenFiles": [
-    "85-岗位图谱/85-12 人力资源与组织发展/85-12 人力资源与组织发展.md",
+    "85-岗位图谱/85-12 人力资源与组织发展.md",
     "85-岗位图谱/85-7 数据分析.md",
+    "85-岗位图谱/85-15 商务达人建联.md",
+    "85-岗位图谱/85-12_人力资源与组织发展_完整版.md",
+    "85-岗位图谱/85-12 人力资源与组织发展/85-12 人力资源与组织发展.md",
     "85-岗位图谱/85-7_数据分析实习生_面试深度拆解.md",
     "85-岗位图谱/85-12 人力资源与组织发展/85-12-1 TD人才发展.md",
     "85-岗位图谱/85-0 岗位能力矩阵总表.md",
@@ -229,7 +248,6 @@
     "01-MOC/60-前沿视野 MOC.md",
     "99-Archive/Markdown写法完全指南_Obsidian专用.md",
     "85-岗位图谱/85-12 人力资源与组织发展",
-    "85-岗位图谱/85-15 商务达人建联.md",
     "85-岗位图谱/85-14 销售与商务拓展.md",
     "20-2 SQL/基础查询模板.md",
     "20-2 SQL",
@@ -245,8 +263,6 @@
     "01-MOC/80-职业竞争力 MOC.md",
     "01-MOC/70-英语能力 MOC.md",
     "01-MOC/50-AI与数字化 MOC.md",
-    "01-MOC/40-思维与认知 MOC.md",
-    "01-MOC/30-表达与输出 MOC.md",
     "99-Archive",
     "90-项目与复盘/90-5 失败案例反思",
     "90-项目与复盘/90-3 实习复盘",
