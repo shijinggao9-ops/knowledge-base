@@ -179,7 +179,7 @@ df.query("城市 == @city")
 
 #### 空值处理
 
-python
+```python
 
 # 查看每列空值数量
 df.isnull().sum()
@@ -191,10 +191,10 @@ df.dropna(subset=['客户'])
 df['销售额'].fillna(0)                    # 用0填充
 df['销售额'].fillna(df['销售额'].mean())   # 用平均值填充
 df['城市'].fillna('未知')                  # 用指定文本填充
-
+```
 #### 重复值处理
 
-python
+```python
 
 # 查看重复行
 df.duplicated()
@@ -204,20 +204,22 @@ df.drop_duplicates()
 df.drop_duplicates(subset=['客户'])
 # 保留最后一个重复项
 df.drop_duplicates(keep='last')
+```
 
 #### 数据类型转换
 
-python
+```python
 
 # 查看数据类型
 df.dtypes
 # 转换类型
 df['销售额'] = df['销售额'].astype('float')
 df['日期'] = pd.to_datetime(df['日期'])
+```
 
 #### 文本处理（str访问器）
 
-python
+```python
 
 # 去除首尾空格
 df['客户'] = df['客户'].str.strip()
@@ -225,6 +227,7 @@ df['客户'] = df['客户'].str.strip()
 df[df['客户'].str.contains('科技')]
 # 替换文本
 df['城市'] = df['城市'].str.replace('北京市', '北京')
+```
 
 ### 1.7 分组聚合（Group By）
 
