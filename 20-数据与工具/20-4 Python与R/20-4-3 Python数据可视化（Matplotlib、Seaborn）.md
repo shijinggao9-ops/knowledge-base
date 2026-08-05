@@ -122,7 +122,7 @@ plt.show()
 
 **箱线图（boxplot）** ：
 
-python
+```python
 
 # 各区域客单价分布对比
 data_by_region = [
@@ -136,10 +136,10 @@ plt.title('各区域客单价分布对比', fontsize=16)
 plt.ylabel('客单价（元）', fontsize=12)
 plt.grid(True, alpha=0.3, axis='y')
 plt.show()
-
+```
 ### 1.2 图表美化技巧
 
-python
+```python
 
 # 设置全局样式（中文字体支持）
 plt.rcParams['font.sans-serif'] = ['SimHei', 'Arial Unicode MS']  # 支持中文
@@ -158,6 +158,7 @@ plt.plot(months, sales_2026, label='2026年', marker='s')
 plt.fill_between(months, sales_2025, sales_2026, alpha=0.2)  # 填充区域
 plt.legend()
 plt.show()
+```
 
 ### 1.3 Seaborn概览
 
@@ -175,19 +176,20 @@ Seaborn是基于Matplotlib构建的高级可视化库，提供了更美观的默
 
 **安装与导入**：
 
-python
+```python
 
 import seaborn as sns
 import matplotlib.pyplot as plt
 # 设置Seaborn主题
 sns.set_theme(style='whitegrid')  # 白底网格
 sns.set_palette('deep')           # 配色方案
+```
 
 #### Seaborn核心图表
 
 **分类统计图（barplot / countplot）** ：
 
-python
+```python
 
 import pandas as pd
 # 模拟数据
@@ -201,27 +203,30 @@ plt.title('各城市平均销售额', fontsize=16)
 plt.show()
 # 计数图（统计各分类的出现次数）
 sns.countplot(data=data, x='城市')
+```
 
 **箱线图（boxplot）** ：
 
-python
+```python
 
 # 使用Seaborn的boxplot，自动按分类分组
 sns.boxplot(data=data, x='城市', y='销售额')
 plt.title('各城市销售额分布', fontsize=16)
 plt.show()
+```
 
 **小提琴图（violinplot）** ——箱线图的升级版，同时显示分布形态：
 
-python
+```python
 
 sns.violinplot(data=data, x='城市', y='销售额')
 plt.title('各城市销售额分布（小提琴图）', fontsize=16)
 plt.show()
+```
 
 **分布图（histplot / kdeplot）** ：
 
-python
+```python
 
 # 直方图 + 密度曲线
 sns.histplot(data=df, x='客单价', kde=True, bins=30)
@@ -230,10 +235,11 @@ plt.title('客单价分布', fontsize=16)
 sns.kdeplot(data=df, x='客单价', fill=True)
 # 多组对比
 sns.kdeplot(data=df, x='客单价', hue='城市', fill=True, alpha=0.3)
+```
 
 **关系图（scatterplot / pairplot）** ：
 
-python
+```python
 
 # 散点图 + 回归线
 sns.regplot(data=df, x='广告费', y='销售额')
@@ -241,10 +247,11 @@ plt.title('广告费与销售额关系', fontsize=16)
 # 多变量成对关系矩阵
 sns.pairplot(df[['销售额', '订单数', '客单价', '广告费']])
 plt.show()
+```
 
 **热力图（heatmap）——相关性分析最常用** ：
 
-python
+```python
 
 # 计算相关系数矩阵
 corr = df[['销售额', '订单数', '客单价', '广告费']].corr()
@@ -252,6 +259,7 @@ plt.figure(figsize=(8, 6))
 sns.heatmap(corr, annot=True, cmap='RdBu_r', center=0, fmt='.2f')
 plt.title('变量相关性热力图', fontsize=16)
 plt.show()
+```
 
 **分类图（catplot）** ——Seaborn最强大的分类可视化函数，整合了多种分类图表类型：
 
