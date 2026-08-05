@@ -191,7 +191,7 @@ pip install requests beautifulsoup4
 
 #### 获取网页内容（requests）
 
-python
+```python
 
 import requests
 # 发送GET请求获取网页内容
@@ -206,10 +206,11 @@ if response.status_code == 200:
     print('获取成功')
 else:
     print(f'获取失败，状态码：{response.status_code}')
+```
 
 #### 解析HTML提取数据（BeautifulSoup）
 
-python
+```python
 
 from bs4 import BeautifulSoup
 # 解析HTML
@@ -230,6 +231,7 @@ for link in links:
     href = link.get('href')
     text = link.text
     print(f'{text}: {href}')
+```
 
 #### 从API获取数据（最常用的数据采集方式）
 
