@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-思维与认知/40-5 问题解决方法论/40-5-2 问题拆解与根因分析工具.md",
+                "file": "40-思维与认知/40-5 问题解决方法论/40-5-1 问题解决的核心流程与问题定义.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "40-5-2 问题拆解与根因分析工具"
+              "title": "40-5-1 问题解决的核心流程与问题定义"
             }
           },
           {
@@ -71,10 +71,15 @@
             "id": "f99b78388d4d5843",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "40-思维与认知/40-5 问题解决方法论/40-5-1 问题解决的核心流程与问题定义.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "40-5-1 问题解决的核心流程与问题定义"
             }
           },
           {
@@ -93,7 +98,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -274,10 +279,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "cf646e5dce6b0a9b",
+  "active": "f99b78388d4d5843",
   "lastOpenFiles": [
-    "40-思维与认知/40-5 问题解决方法论/40-5-1 问题解决的核心流程与问题定义.md",
     "40-思维与认知/40-5 问题解决方法论/40-5-2 问题拆解与根因分析工具.md",
+    "40-思维与认知/40-5 问题解决方法论/40-5-1 问题解决的核心流程与问题定义.md",
     "40-思维与认知/40-4 逻辑谬误与认知偏差/40-4-2 商业场景中的偏差识别与应对.md",
     "40-思维与认知/40-4 逻辑谬误与认知偏差/40-4-1 逻辑谬误与认知偏差的分类与速查.md",
     "40-思维与认知/40-3 决策分析框架/40-3-2 决策工具与常见决策陷阱.md",
