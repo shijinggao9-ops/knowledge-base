@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "40-思维与认知/40-5 问题解决方法论/40-5-1 问题解决的核心流程与问题定义.md",
+                "file": "50-AI与数字化/50-1 AI基础与产业认知/未命名.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "40-5-1 问题解决的核心流程与问题定义"
+              "title": "未命名"
             }
           },
           {
@@ -71,15 +71,10 @@
             "id": "f99b78388d4d5843",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "40-思维与认知/40-5 问题解决方法论/40-5-2 问题拆解与根因分析工具.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "40-5-2 问题拆解与根因分析工具"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           },
           {
@@ -98,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -279,9 +274,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f99b78388d4d5843",
+  "active": "cf646e5dce6b0a9b",
   "lastOpenFiles": [
     "40-思维与认知/40-5 问题解决方法论/40-5-1 问题解决的核心流程与问题定义.md",
+    "50-AI与数字化/50-1 AI基础与产业认知/未命名.md",
     "40-思维与认知/40-5 问题解决方法论/40-5-2 问题拆解与根因分析工具.md",
     "40-思维与认知/40-4 逻辑谬误与认知偏差/40-4-2 商业场景中的偏差识别与应对.md",
     "40-思维与认知/40-4 逻辑谬误与认知偏差/40-4-1 逻辑谬误与认知偏差的分类与速查.md",
@@ -306,7 +302,6 @@
     "30-表达与输出/30-2 PPT设计与叙事/30-2-1 PPT的核心定位与设计原则.md",
     "30-2-3 PPT的视觉呈现与数据可视化（排版、配色、图表、信息图）.md",
     "30-表达与输出/30-1 结构化表达/30-1-4 逻辑表达与说服技巧.md",
-    "30-表达与输出/30-1 结构化表达/30-1-3 结构化表达的场景应用.md",
     "小红书",
     "86-岗位jd汇总",
     "补某门课/做某类项目",
