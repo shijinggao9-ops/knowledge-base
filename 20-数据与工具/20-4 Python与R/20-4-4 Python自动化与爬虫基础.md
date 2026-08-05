@@ -310,10 +310,10 @@ while True:
 
 **crontab示例（每天9:00执行）** ：
 
-```
 ```bash
 
 0 9 * * * /usr/bin/python3 /path/to/your_script.py
+```
 
 ## 二、商业场景还原
 
@@ -323,7 +323,7 @@ while True:
 
 **情境**：每月收到各区域的销售报表（`区域_202601.xlsx`、`区域_202602.xlsx`……），需要合并为一张总表并生成汇总。
 
-python
+```python
 
 import pandas as pd
 import glob
@@ -347,12 +347,13 @@ def merge_excel_files(pattern, output_file):
     return df_merged
 # 使用
 merged = merge_excel_files('区域_*.xlsx', '2026年_汇总销售表.xlsx')
+```
 
 ### 场景2：自动发送每日销售日报
 
 **情境**：每天早晨9:00，从数据库/Excel读取昨日销售数据，自动生成日报并发送给管理层。
 
-python
+```python
 
 import pandas as pd
 from datetime import datetime, timedelta
@@ -387,12 +388,13 @@ def send_daily_report():
     send_text_email(f'销售日报_{data["date"]}', body, 'management@company.com')
 # 配合schedule使用
 schedule.every().day.at('09:00').do(send_daily_report)
+```
 
 ### 场景3：监控竞品价格变化
 
 **情境**：需要定期获取竞品在电商平台上的价格，监控价格变化趋势（仅限公开数据，遵守网站规则）。
 
-python
+```python
 
 import requests
 from bs4 import BeautifulSoup
@@ -436,6 +438,7 @@ urls = {
     '产品B': 'https://example.com/product_b',
 }
 monitor_prices(urls)
+```
 
 ## 三、常见错误与陷阱
 

@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-数据与工具/20-4 Python与R/20-4-4 Python自动化与爬虫基础.md",
+                "file": "20-数据与工具/20-4 Python与R/20-4-5 R语言入门与统计分析.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "20-4-4 Python自动化与爬虫基础"
+              "title": "20-4-5 R语言入门与统计分析"
             }
           },
           {
@@ -276,13 +276,13 @@
   },
   "active": "cf646e5dce6b0a9b",
   "lastOpenFiles": [
+    "20-数据与工具/20-4 Python与R/20-4-4 Python自动化与爬虫基础.md",
     "20-数据与工具/20-4 Python与R/20-4-3 Python数据可视化（Matplotlib、Seaborn）.md",
     "20-数据与工具/20-4 Python与R/20-4-2 Python数据分析核心库（Pandas、NumPy）.md",
     "20-数据与工具/20-2 SQL/20-2-3 多表关联与子查询.md",
     "20-数据与工具/20-4 Python与R/20-4-1 Python基础语法与数据环境搭建.md",
     "85-岗位图谱/85-12 人力资源与组织发展.md",
     "20-数据与工具/20-4 Python与R/20-4-5 R语言入门与统计分析.md",
-    "20-数据与工具/20-4 Python与R/20-4-4 Python自动化与爬虫基础.md",
     "20-数据与工具/20-3 BI工具/20-3-4 BI面试与实战应用（DAX、增量刷新、权限管理）.md",
     "20-数据与工具/20-3 BI工具/20-3-3 可视化图表与仪表板设计.md",
     "20-数据与工具/20-3 BI工具/20-3-2 数据连接与数据建模（以Power BI为例）.md",
