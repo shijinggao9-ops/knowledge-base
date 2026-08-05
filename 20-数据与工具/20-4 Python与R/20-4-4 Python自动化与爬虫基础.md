@@ -172,8 +172,10 @@ send_email_with_attachment(
     RECEIVER_EMAIL,
     'monthly_report.xlsx'
 )
+```
 
 > **重要提醒**：不要将邮箱密码或授权码直接写在代码中。生产环境中应使用环境变量（`os.getenv()`）或配置文件存储敏感信息，避免代码泄露导致账号被盗。
+
 
 ### 1.3 爬虫基础：requests与BeautifulSoup
 
@@ -181,9 +183,11 @@ send_email_with_attachment(
 
 #### 安装
 
-bash
+
+```bash
 
 pip install requests beautifulsoup4
+```
 
 #### 获取网页内容（requests）
 
