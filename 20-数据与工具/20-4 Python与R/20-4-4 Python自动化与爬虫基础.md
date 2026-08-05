@@ -80,7 +80,7 @@ wb.save('sales_report.xlsx')
 
 #### 修改已有Excel文件
 
-python
+```python
 
 # 打开已有文件，追加数据
 wb = load_workbook('sales_report.xlsx')
@@ -91,6 +91,7 @@ ws.append(['赵六', '深圳', 15000, 8])
 ws['E1'] = '合计'
 ws['E2'] = '=SUM(C2:C5)'
 wb.save('sales_report_updated.xlsx')
+```
 
 ### 1.2 邮件自动化：smtplib与email
 
@@ -98,7 +99,7 @@ wb.save('sales_report_updated.xlsx')
 
 **安装**：smtplib和email是Python内置库，无需额外安装。
 
-python
+```python
 
 import smtplib
 from email.mime.text import MIMEText
