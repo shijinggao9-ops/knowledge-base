@@ -237,7 +237,7 @@ for link in links:
 
 很多网站提供公开API（Application Programming Interface），返回结构化数据（通常是JSON格式），比解析HTML更方便、更稳定。
 
-python
+```python
 
 import requests
 import json
@@ -248,6 +248,7 @@ if response.status_code == 200:
     data = response.json()  # 自动解析为Python列表/字典
     print(f'获取到 {len(data)} 条数据')
     print(data[0])  # 查看第一条
+```
 
 #### 处理动态网页：Selenium入门
 
@@ -255,13 +256,14 @@ if response.status_code == 200:
 
 **安装**：
 
-bash
+```bash
 
 pip install selenium
+```
 
 **示例（使用Chrome浏览器）** ：
 
-python
+```python
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -276,12 +278,13 @@ html = driver.page_source
 # 查找元素
 title = driver.find_element('tag name', 'h1').text
 driver.quit()
+```
 
 ### 1.4 定时任务：schedule与系统任务调度
 
 #### schedule库（Python内部调度）
 
-python
+```python
 
 import schedule
 import time
