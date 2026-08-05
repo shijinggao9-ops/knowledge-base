@@ -316,12 +316,12 @@ df['星期'] = df['日期'].dt.weekday
 df[df['日期'].dt.month == 8]
 # 筛选日期范围
 df[(df['日期'] >= '2026-01-01') & (df['日期'] <= '2026-06-30')]
-
+```
 ### 1.10 应用函数（apply / map）
 
 当需要对数据行进行自定义计算时，使用`apply()`。
 
-python
+```python
 
 # 对销售额列应用函数
 df['销售额_万元'] = df['销售额'].apply(lambda x: x / 10000)
@@ -332,6 +332,7 @@ df['等级'] = df.apply(
 )
 # map：将值映射为另一个值
 df['城市代码'] = df['城市'].map({'北京': 'BJ', '上海': 'SH', '深圳': 'SZ'})
+```
 
 ## 二、商业场景还原
 
@@ -339,7 +340,8 @@ df['城市代码'] = df['城市'].map({'北京': 'BJ', '上海': 'SH', '深圳':
 
 **情境**：每个月收到一份销售报表（`sales_202601.csv`、`sales_202602.csv`……`sales_202612.csv`），需要合并为一张总表。
 
-python
+
+```python
 
 import pandas as pd
 import glob
@@ -354,6 +356,7 @@ for file in all_files:
 # 纵向拼接所有数据
 df_all = pd.concat(df_list, ignore_index=True)
 print(f"合并完成，共 {len(df_all)} 行")
+```
 
 ### 场景2：客户价值分析与分层
 
