@@ -260,24 +260,26 @@ sns.heatmap(corr, annot=True, cmap='RdBu_r', center=0, fmt='.2f')
 plt.title('变量相关性热力图', fontsize=16)
 plt.show()
 ```
-
+ 
 **分类图（catplot）** ——Seaborn最强大的分类可视化函数，整合了多种分类图表类型：
 
-python
+```python
 
 # 使用catplot可以快速切换图表类型
 sns.catplot(data=df, x='城市', y='销售额', kind='box')      # 箱线图
 sns.catplot(data=df, x='城市', y='销售额', kind='violin')   # 小提琴图
 sns.catplot(data=df, x='城市', y='销售额', kind='bar')      # 柱状图
+```
 
 ### 1.4 图表保存
 
-python
+```python
 
 # 保存为图片（用于报告、PPT、邮件）
 plt.savefig('sales_chart.png', dpi=300, bbox_inches='tight')
 # 保存为高清矢量图（适合印刷）
 plt.savefig('sales_chart.pdf', bbox_inches='tight')
+```
 
 ## 二、商业场景还原
 
@@ -285,7 +287,7 @@ plt.savefig('sales_chart.pdf', bbox_inches='tight')
 
 **情境**：需要向管理层汇报2026年上半年销售趋势，展示月度变化和增长态势。
 
-python
+```python
 
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -309,12 +311,13 @@ plt.annotate('增长51%', xy=(5, 1890), xytext=(4, 2000),
 plt.tight_layout()
 plt.savefig('sales_trend.png', dpi=300, bbox_inches='tight')
 plt.show()
+```
 
 ### 场景2：各城市销售额对比（Seaborn柱状图）
 
 **情境**：需要对比各城市销售表现，并同时显示每个城市的销售分布情况。
 
-python
+```python
 
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -345,12 +348,13 @@ plt.ylabel('销售额（元）', fontsize=14)
 plt.xticks(fontsize=12)
 plt.tight_layout()
 plt.show()
+```
 
 ### 场景3：相关性热力图（Seaborn heatmap）
 
 **情境**：分析销售额、订单数、客单价、广告费、客户数之间的相关性，找出影响销售额的关键因素。
 
-python
+```python
 
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -384,12 +388,13 @@ sns.heatmap(
 plt.title('核心指标相关性热力图', fontsize=16, fontweight='bold')
 plt.tight_layout()
 plt.show()
+```
 
 ### 场景4：多变量关系探索（Pairplot）
 
 **情境**：探索不同城市下，销售额与客单价、订单数之间的多维关系。
 
-python
+```python
 
 # 添加城市标签
 df['城市'] = np.random.choice(['北京', '上海', '深圳'], n)
@@ -403,6 +408,7 @@ sns.pairplot(
 )
 plt.suptitle('各城市多维指标关系矩阵', fontsize=16, y=1.02)
 plt.show()
+```
 
 ## 三、面试高频题
 
@@ -410,7 +416,7 @@ plt.show()
 
 **题目1：用Matplotlib画一张折线图，展示2026年1-12月的销售趋势。**
 
-python
+```python
 
 import matplotlib.pyplot as plt
 months = ['1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月']
@@ -422,10 +428,11 @@ plt.xlabel('月份')
 plt.ylabel('销售额（万元）')
 plt.grid(True, alpha=0.3)
 plt.show()
+```
 
 **题目2：用Seaborn画一张热力图，展示变量之间的相关性。**
 
-python
+```python
 
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -433,6 +440,7 @@ import matplotlib.pyplot as plt
 corr = df.corr()
 sns.heatmap(corr, annot=True, cmap='coolwarm', fmt='.2f')
 plt.show()
+```
 
 ### 3.2 常见面试追问
 
