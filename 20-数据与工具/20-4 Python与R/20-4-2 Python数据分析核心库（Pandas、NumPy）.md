@@ -75,16 +75,16 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 
-
 #    客户  城市   销售额  订单数
 # 0  张三  北京  25000   15
 # 1  李四  上海  18000   12
 # 2  王五  北京  32000   20
 # 3  赵六  深圳  15000    8
+```
 
 ### 1.3 数据导入与导出
 
-python
+```python
 
 # 从CSV导入
 df = pd.read_csv('sales_data.csv', encoding='utf-8')
@@ -96,10 +96,11 @@ df.to_csv('output.csv', index=False, encoding='utf-8-sig')
 df.to_excel('output.xlsx', index=False, sheet_name='汇总')
 # 从剪贴板读取（快速从Excel复制数据）
 # df = pd.read_clipboard()
+```
 
 ### 1.4 数据查看与探索
 
-python
+```python
 
 # 查看前5行
 df.head()
@@ -117,12 +118,13 @@ df.columns
 df.index
 # 查看数据类型的快速概览
 df.dtypes
+```
 
 ### 1.5 数据选取与筛选
 
 #### 基础列选择
 
-python
+```python
 
 # 选择单列（返回Series）
 df['客户']
