@@ -233,7 +233,7 @@ df['城市'] = df['城市'].str.replace('北京市', '北京')
 
 `groupby()`是Pandas中最强大的分析功能——相当于Excel中的数据透视表。
 
-python
+```python
 
 # 按城市分组，计算销售额总和
 df.groupby('城市')['销售额'].sum()
@@ -247,10 +247,11 @@ df.groupby('城市').agg(
     平均销售额=('销售额', 'mean'),
     客户数=('客户', 'count')
 )
+```
 
 #### 数据透视表（pivot_table）
 
-python
+```python
 
 # 按城市和产品类别交叉汇总
 pd.pivot_table(
@@ -268,12 +269,13 @@ pd.pivot_table(
     columns='产品类别',
     aggfunc=['sum', 'mean']
 )
+```
 
 ### 1.8 数据合并
 
 #### 合并（merge）——类似SQL的JOIN
 
-python
+```python
 
 # 订单表和客户表合并（内连接）
 merged_df = pd.merge(
@@ -284,19 +286,21 @@ merged_df = pd.merge(
 )
 # 多条件连接
 pd.merge(df1, df2, on=['key1', 'key2'])
+```
 
 #### 拼接（concat）——类似SQL的UNION
 
-python
+```python
 
 # 纵向拼接（行数增加）
 df_combined = pd.concat([df1, df2], ignore_index=True)
 # 横向拼接（列数增加）
 df_combined = pd.concat([df1, df2], axis=1)
+```
 
 ### 1.9 日期处理
 
-python
+```python
 
 # 转换为日期类型
 df['日期'] = pd.to_datetime(df['日期'])
