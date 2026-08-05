@@ -362,7 +362,7 @@ print(f"合并完成，共 {len(df_all)} 行")
 
 **情境**：有一张订单表（订单ID、客户ID、订单日期、金额），需要按客户汇总并分层。
 
-python
+```python
 
 # 读取数据
 orders = pd.read_excel('orders.xlsx')
@@ -390,12 +390,13 @@ tier_stats = customer_summary.groupby('客户分层').agg(
     总消费=('总消费额', 'sum')
 )
 print(tier_stats)
+```
 
 ### 场景3：多表关联分析（订单+产品+客户）
 
 **情境**：有三张表——订单表、产品表、客户表，需要分析各城市各品类销售额。
 
-python
+```python
 
 # 导入三张表
 orders = pd.read_csv('orders.csv')
@@ -414,12 +415,13 @@ result = df.groupby(['城市', '品类']).agg(
 ).reset_index()
 # 保存结果
 result.to_excel('城市_品类_分析.xlsx', index=False)
+```
 
 ### 场景4：数据质量检查
 
 **情境**：收到一份业务数据，需要快速检查数据质量。
 
-python
+```python
 
 def data_quality_report(df):
     print("=" * 50)
@@ -438,6 +440,7 @@ def data_quality_report(df):
 # 使用
 df = pd.read_excel('raw_data.xlsx')
 data_quality_report(df)
+```
 
 ## 三、面试高频题
 
@@ -445,39 +448,45 @@ data_quality_report(df)
 
 **题目1：如何筛选DataFrame中某列大于100的行？**
 
-python
+```
+```python
 
 df[df['列名'] > 100]
+```
 
 **题目2：如何按某列分组并计算另一列的平均值？**
 
-python
+```python
 
 df.groupby('分组列')['数值列'].mean()
+```
 
 **题目3：如何处理缺失值？**
 
-python
+```
+```python
 
 # 删除
 df.dropna()
 # 填充
 df.fillna(value)
+```
 
 **题目4：如何合并两张表？**
 
-python
+```python
 
 # 类似SQL JOIN
 pd.merge(df1, df2, on='key', how='left')
 # 纵向拼接
 pd.concat([df1, df2], ignore_index=True)
+```
 
 ### 3.2 综合题
 
 **题目："请用Pandas实现：从Excel读取订单数据，按客户汇总订单数、总金额、平均金额，然后将结果导出为新Excel文件。"**
 
-python
+```python
 
 import pandas as pd
 # 读取数据
@@ -490,6 +499,7 @@ result = df.groupby('客户ID').agg(
 ).reset_index()
 # 导出
 result.to_excel('customer_summary.xlsx', index=False)
+```
 
 ## 四、常见错误与陷阱
 
@@ -531,8 +541,8 @@ result.to_excel('customer_summary.xlsx', index=False)
     
 - [[20-4-3 Python数据可视化（Matplotlib、Seaborn）]]（数据分析后的可视化呈现）
     
-- [[20-2 SQL]]（Pandas的`merge`对应SQL的`JOIN`，`groupby`对应SQL的`GROUP BY`）
+- [[20-2-2 数据过滤与分组聚合]]  [[20-2-3 多表关联与子查询]]（Pandas的`merge`对应SQL的`JOIN`，`groupby`对应SQL的`GROUP BY`）
     
-- [[20-1 Excel]]（Pandas的`pivot_table`对应Excel的数据透视表）
+- [[20-1-4 数据透视表与图表可视化]]（Pandas的`pivot_table`对应Excel的数据透视表）
     
 - [[85-7 数据分析]]（Pandas在数据分析岗位中的核心地位）
