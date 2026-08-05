@@ -299,6 +299,7 @@ print('调度器已启动，按Ctrl+C停止...')
 while True:
     schedule.run_pending()
     time.sleep(60)  # 每分钟检查一次
+```
 
 #### 系统级调度（更稳定）
 
@@ -309,7 +310,8 @@ while True:
 
 **crontab示例（每天9:00执行）** ：
 
-bash
+```
+```bash
 
 0 9 * * * /usr/bin/python3 /path/to/your_script.py
 
