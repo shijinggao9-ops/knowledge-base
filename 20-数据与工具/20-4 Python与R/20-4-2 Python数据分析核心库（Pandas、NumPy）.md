@@ -52,18 +52,18 @@ mean_arr = arr.mean()         # 平均值
 
 **Series（一维数据）** ：
 
-python
+```python
 
 import pandas as pd
 # 从列表创建Series
 s = pd.Series([10, 20, 30, 40], index=['a', 'b', 'c', 'd'])
 print(s['b'])  # 20
-
+```
 **DataFrame（二维表格）** ：
 
 DataFrame是Pandas最核心的数据结构——你可以把它理解为"Python版的Excel工作表"或"内存中的SQL表"。
 
-python
+```python
 
 # 从字典创建DataFrame
 data = {
@@ -74,6 +74,8 @@ data = {
 }
 df = pd.DataFrame(data)
 print(df)
+
+
 #    客户  城市   销售额  订单数
 # 0  张三  北京  25000   15
 # 1  李四  上海  18000   12
