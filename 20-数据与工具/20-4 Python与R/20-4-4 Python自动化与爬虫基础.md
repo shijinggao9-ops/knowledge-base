@@ -112,10 +112,12 @@ SMTP_PORT = 465                  # SSL端口
 SENDER_EMAIL = 'your_email@qq.com'
 SENDER_PASSWORD = 'your_auth_code'  # 邮箱授权码，不是登录密码
 RECEIVER_EMAIL = 'receiver@company.com'
+```
 
 #### 发送纯文本邮件
 
-python
+
+```python
 
 def send_text_email(subject, body, to_email):
     # 构建邮件
@@ -133,10 +135,11 @@ send_text_email(
     f'今日销售额：1,250,000元\n订单数：128单\n平均客单价：9,765元',
     RECEIVER_EMAIL
 )
+```
 
 #### 发送带附件的邮件（附Excel报表）
 
-python
+```python
 
 def send_email_with_attachment(subject, body, to_email, attachment_path):
     # 构建邮件容器
