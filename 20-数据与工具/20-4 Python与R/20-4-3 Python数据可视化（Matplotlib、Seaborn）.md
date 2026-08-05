@@ -33,7 +33,7 @@ axes[0, 0].plot([1, 2, 3], [4, 5, 6])  # 访问第1行第1列
 
 **折线图（plot）** ：
 
-python
+```python
 
 # 月度趋势数据
 months = ['1月', '2月', '3月', '4月', '5月', '6月']
@@ -45,10 +45,11 @@ plt.xlabel('月份', fontsize=12)
 plt.ylabel('销售额（万元）', fontsize=12)
 plt.grid(True, alpha=0.3)
 plt.show()
+```
 
 **柱状图（bar）** ：
 
-python
+```python
 
 # 各区域销售额对比
 regions = ['北京', '上海', '广州', '深圳', '杭州']
@@ -62,19 +63,21 @@ plt.ylabel('销售额（万元）', fontsize=12)
 for i, v in enumerate(sales):
     plt.text(i, v + 5, str(v), ha='center', fontsize=11)
 plt.show()
+```
 
 **水平条形图（barh）** ：
 
-python
+```python
 
 plt.figure(figsize=(10, 6))
 plt.barh(regions, sales, color='steelblue')
 plt.title('各区域销售额', fontsize=16)
 plt.xlabel('销售额（万元）', fontsize=12)
+```
 
 **散点图（scatter）** ：
 
-python
+```python
 
 # 广告费 vs 销售额
 ad_spend = [10, 15, 20, 25, 30, 35, 40, 45, 50]
@@ -86,10 +89,11 @@ plt.xlabel('广告费（万元）', fontsize=12)
 plt.ylabel('销售额（万元）', fontsize=12)
 plt.grid(True, alpha=0.3)
 plt.show()
+```
 
 **直方图（hist）** ：
 
-python
+```python
 
 # 客单价分布
 prices = np.random.normal(500, 150, 1000)  # 模拟1000个客单价数据
@@ -101,10 +105,11 @@ plt.ylabel('订单数', fontsize=12)
 plt.axvline(prices.mean(), color='red', linestyle='--', linewidth=2, label=f'均值：{prices.mean():.0f}元')
 plt.legend()
 plt.show()
+```
 
 **饼图（pie）** ：
 
-python
+```python
 
 # 各产品线收入占比
 products = ['电子产品', '服装', '食品', '家居', '其他']
@@ -113,6 +118,7 @@ plt.figure(figsize=(8, 8))
 plt.pie(revenue, labels=products, autopct='%1.1f%%', startangle=90)
 plt.title('各产品线收入占比', fontsize=16)
 plt.show()
+```
 
 **箱线图（boxplot）** ：
 
