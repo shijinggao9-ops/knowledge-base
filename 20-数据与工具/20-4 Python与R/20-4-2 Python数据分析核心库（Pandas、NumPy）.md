@@ -538,11 +538,7 @@ result.to_excel('customer_summary.xlsx', index=False)
 ## 六、关联笔记
 
 - [[20-4-1 Python基础语法与数据环境搭建]]（学习Pandas前需掌握的Python基础）
-    
 - [[20-4-3 Python数据可视化（Matplotlib、Seaborn）]]（数据分析后的可视化呈现）
-    
 - [[20-2-2 数据过滤与分组聚合]]  [[20-2-3 多表关联与子查询]]（Pandas的`merge`对应SQL的`JOIN`，`groupby`对应SQL的`GROUP BY`）
-    
 - [[20-1-4 数据透视表与图表可视化]]（Pandas的`pivot_table`对应Excel的数据透视表）
-    
 - [[85-7 数据分析]]（Pandas在数据分析岗位中的核心地位）

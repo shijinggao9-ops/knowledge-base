@@ -435,12 +435,8 @@ print(counts)  # {'apple': 3, 'banana': 2, 'orange': 1}
 
 ## 六、关联笔记
 
-- [[20-1 Excel]]（Python解决Excel做不到的问题）
-    
-- [[20-2 SQL]]（Python可替代SQL做复杂ETL）
-    
+- [[20-1-1 Excel基础操作与界面认知]]（Python解决Excel做不到的问题）
+- [[20-2-1 SQL入门与基础查询]]（Python可替代SQL做复杂ETL）
 - [[20-4-2 Python数据分析核心库（Pandas、NumPy）]]（基础语法之后的下一个学习步骤）
-    
 - [[20-4-3 Python数据可视化（Matplotlib、Seaborn）]]（数据分析后的可视化呈现）
-    
 - [[85-7 数据分析]]（Python在数据分析岗位中的核心地位）
