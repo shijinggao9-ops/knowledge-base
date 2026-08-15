@@ -2,8 +2,7 @@
 tags: [计算机基础, 办公软件, Word, Excel, PowerPoint, 办公效率, 商科知识库]
 date: 2026-08-15
 ---
-
-# 05-2 办公软件高效操作（Word / Excel / PowerPoint）
+# 05-2 办公软件高效操作（Word、Excel 、PowerPoint）
 
 **定位**：办公软件（Word、Excel、PowerPoint）是商科生日常工作中使用频率最高的工具——写报告、做数据分析、做汇报展示，几乎每天都要用到。这个文件不是“零基础教程”，而是“效率手册”：覆盖Word、Excel、PPT三大软件的核心高效操作、进阶技巧和AI辅助应用，帮助你从“会用”升级到“用得又快又好”。
 
