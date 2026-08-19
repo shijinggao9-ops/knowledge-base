@@ -1,0 +1,48 @@
+{
+  "myInterval": 3,
+  "myRetryCount": 30,
+  "restoreIntervalMs": 100,
+  "restoreDelayMs": 300,
+  "enableSmartRestoreDelay": false,
+  "positionState": {
+    "version": 2,
+    "files": {
+      "20-数据与工具/20-2 SQL/20-2-1 SQL入门与基础查询.md": {
+        "height": 248.9018352001831,
+        "lastAccessed": 1787145289972
+      },
+      "40-思维与认知/40-5 问题解决方法论/40-5-2 问题拆解与根因分析工具.md": {
+        "height": 44.9097217760588,
+        "lastAccessed": 1787145299665
+      }
+    },
+    "leaves": {
+      "ba4bcf985ccf55eb": {
+        "height": 248.9018352001831,
+        "lastAccessed": 1787145289972,
+        "filePath": "20-数据与工具/20-2 SQL/20-2-1 SQL入门与基础查询.md"
+      },
+      "3a1a86536fa9b5f3": {
+        "height": 44.9097217760588,
+        "lastAccessed": 1787145299665,
+        "filePath": "40-思维与认知/40-5 问题解决方法论/40-5-2 问题拆解与根因分析工具.md"
+      }
+    },
+    "bookmarks": {}
+  },
+  "scrollHeightData": {
+    "20-数据与工具/20-2 SQL/20-2-1 SQL入门与基础查询.md": {
+      "height": 248.9018352001831,
+      "lastAccessed": 1787145289972
+    },
+    "40-思维与认知/40-5 问题解决方法论/40-5-2 问题拆解与根因分析工具.md": {
+      "height": 44.9097217760588,
+      "lastAccessed": 1787145299665
+    }
+  },
+  "listenEvent": "mouseover",
+  "pageSize": 10,
+  "enableAutoCleanup": false,
+  "cleanupDays": 30,
+  "dataManagementSettingsOpen": false
+}
