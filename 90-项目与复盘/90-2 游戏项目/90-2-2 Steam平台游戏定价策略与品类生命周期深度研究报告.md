@@ -1,15 +1,3 @@
----
-tags:
-  - 项目
-  - 数据分析
-  - Steam
-  - 游戏行业
-  - 定价策略
-  - 生命周期
-  - 回归分析
-日期: 2026-08-22
-状态: 已完成
----
 ## 基于239,664款游戏的量化分析——当"独立游戏"成为负资产，价格如何成为品质的信号？
 
 
@@ -117,7 +105,11 @@ $$\ln(Recommendations_i + 1) = \beta_0 + \beta_1 Price_i + \beta_2 Metacritic_i 
 
 ### 3.1 数据来源
 
-本研究使用 **Steam Games Dataset 2025**，包含以下核心数据表：
+本研究使用的核心数据集为 **Steam Dataset 2025**（唐纳德·方丹，2025），该数据集由 Zenodo 托管发布，是一个覆盖 Steam 游戏平台的大规模多模态数据集，包含 239,664 款游戏的应用信息、品类关联、平台支持、开发商与发行商等结构化数据。
+
+> **数据集引用**：Donald Fountain. (2025). The Steam Dataset 2025: A Large-Scale, Multi-Modal Dataset of the Steam Gaming Platform. Zenodo. https://doi.org/10.5281/zenodo.17286923
+
+数据集包含以下核心数据表：
 
 | 数据表 | 记录数 | 核心字段 |
 |:---|:---:|:---|
@@ -635,6 +627,22 @@ Ridge回归通过L2惩罚压缩大系数，这可能导致对真实效应的低�
 
 **方向4：A/B测试验证**
 与独立开发者合作，对同一款游戏进行定价实验（如A版本$9.99，B版本$19.99），验证价格信号理论在真实环境中的效应。
+
+## 参考文献
+
+### 数据集
+
+唐纳德·方丹。（2025）。Steam 数据集 2025：Steam 游戏平台的大规模多模态数据集。泽诺多。https://doi.org/10.5281/zenodo.17286923
+
+*Donald Fountain. (2025). The Steam Dataset 2025: A Large-Scale, Multi-Modal Dataset of the Steam Gaming Platform. Zenodo. https://doi.org/10.5281/zenodo.17286923*
+
+### 理论与方法
+
+Akerlof, G. A. (1970). The Market for "Lemons": Quality Uncertainty and the Market Mechanism. *The Quarterly Journal of Economics*, 84(3), 488–500.
+
+Simon, H. A. (1971). Designing Organizations for an Information-Rich World. In M. Greenberger (Ed.), *Computers, Communications, and the Public Interest* (pp. 37–72). Baltimore, MD: Johns Hopkins University Press.
+
+Spence, M. (1973). Job Market Signaling. *The Quarterly Journal of Economics*, 87(3), 355–374.
 
 ## 附录
 
