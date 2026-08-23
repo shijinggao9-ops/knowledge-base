@@ -26,10 +26,15 @@
             "id": "cf646e5dce6b0a9b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "85-岗位图谱/85-23 游戏行业（策划、运营、发行）.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "85-23 游戏行业（策划、运营、发行）"
             }
           },
           {
@@ -83,17 +88,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "copilot/copilot-custom-prompts/Make longer.md",
+                "file": "90-项目与复盘/90-2 游戏项目/90-2-2 Steam平台游戏定价策略与品类生命周期深度研究报告.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Make longer"
+              "title": "90-2-2 Steam平台游戏定价策略与品类生命周期深度研究报告"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -273,8 +278,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "49ec8594f6111d55",
+  "active": "cf646e5dce6b0a9b",
   "lastOpenFiles": [
+    "90-项目与复盘/90-2 游戏项目/90-2-2 Steam平台游戏定价策略与品类生命周期深度研究报告.md",
+    "Pasted image 20260822184540.png",
+    "Pasted image 20260822183931.png",
+    "da19935a618ea7e02a0502063afab7f6.png",
+    "{5FA8FE16-C574-41CF-9ACD-BACA6DBFF66F}.png",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
     "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts/Clip YouTube Transcript.md",
     "copilot/copilot-custom-prompts/Clip Web Page.md",
@@ -286,15 +298,10 @@
     "{A8A1ECD3-EA3D-4A67-9E4E-58F071DB285C}.png",
     "{3373E6DD-5CE1-450D-82F4-71429C0E60E9}.png",
     "{431E7584-1091-43A8-8A71-52817D5852A4}.png",
-    "{5FA8FE16-C574-41CF-9ACD-BACA6DBFF66F}.png",
-    "90-项目与复盘/90-2 游戏项目/90-2-2 Steam平台游戏定价策略与品类生命周期深度研究报告.md",
     "90-项目与复盘/90-2 游戏项目/90-2-1 火影忍者手游「新手前期体验」优化策划案.md",
     "90-项目与复盘/90-0 产出成果/Steam平台游戏定价策略与品类生命周期的实证研究.pdf",
     "90-项目与复盘/90-0 产出成果",
     "5fb3cee67bf70387c890076d767f259c.png",
-    "{44605D9D-58B6-4E48-9A92-CA7205F28C12}.png",
-    "{D35B5214-6393-4008-BB76-9E2B0166B560}.png",
-    "Pasted image 20260822184540.png",
     "90-项目与复盘/90-2 游戏项目/90-2-1 火影忍者手游「新手前期体验」优化策划案/9021001-项目日志.md",
     "90-项目与复盘/90-2 游戏项目/90-2-1 火影忍者手游「新手前期体验」优化策划案/9021100 原始素材库",
     "90-项目与复盘/90-2 游戏项目/90-2-1 火影忍者手游「新手前期体验」优化策划案/9021000-项目看板.md",
@@ -314,9 +321,6 @@
     "85-岗位图谱/85-9 风险投资与私募.md",
     "85-岗位图谱/85-10 市场研究与用户研究.md",
     "85-岗位图谱/85-11 品牌公关与广告.md",
-    "85-岗位图谱/85-13 供应链与采购.md",
-    "85-岗位图谱/85-12 人力资源与组织发展.md",
-    "80-职业竞争力/80-4 项目管理/80-4-4 项目实战中的问题与应对.md",
     "05-计算机基础与办公效率",
     "10-2-3 核心账务处理（资产/负债",
     "10-2-3 核心账务处理（资产",
