@@ -8,5 +8,8 @@
   },
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "focusNewTab": true
+  "focusNewTab": true,
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "showInlineTitle": true
 }
