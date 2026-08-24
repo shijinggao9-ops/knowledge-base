@@ -258,12 +258,3 @@
 .mermaid-tools-modal-button-container button.mod-cta:hover {
     background-color: var(--color-accent-hover);
 }
-
-.mermaid svg {
-    max-width: 100% !important;
-    height: auto !important;
-}
-
-.mermaid .label {
-    font-size: 20px !important;
-}
