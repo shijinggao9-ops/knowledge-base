@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90-项目与复盘/90-2 游戏项目/90-2-1_游戏全体系拆解案/90-2-1-21 专题_社交结构金字塔.md",
+                "file": "90-项目与复盘/90-2 游戏项目/90-2-1_游戏全体系拆解案/90-2-1-22 专题_赛季制与版本更新节奏研究.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "90-2-1-21 专题_社交结构金字塔"
+              "title": "90-2-1-22 专题_赛季制与版本更新节奏研究"
             }
           },
           {
@@ -300,6 +300,7 @@
   },
   "active": "cf646e5dce6b0a9b",
   "lastOpenFiles": [
+    "90-项目与复盘/90-2 游戏项目/90-2-1_游戏全体系拆解案/90-2-1-21 专题_社交结构金字塔.md",
     "90-项目与复盘/90-2 游戏项目/90-2-1_游戏全体系拆解案/90-2-1-20 专题_DAU曲线与弃坑拐点分析.md",
     "90-项目与复盘/90-2 游戏项目/90-2-1_游戏全体系拆解案/90-2-1-19 专题_付费心理学模型对比.md",
     "90-项目与复盘/90-2 游戏项目/90-2-1_游戏全体系拆解案/90-2-1-6 拆解数据速查表.md",
@@ -336,7 +337,6 @@
     "da19935a618ea7e02a0502063afab7f6.png",
     "{5FA8FE16-C574-41CF-9ACD-BACA6DBFF66F}.png",
     "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
     "{C479DABD-2C80-47D8-A10B-17B2A945CF94}.png",
     "{D936FB39-689B-4C3F-ABD7-013ABFAF4F1D}.png",
     "90-项目与复盘/90-0 产出成果/Steam平台游戏定价策略与品类生命周期的实证研究.pdf",
