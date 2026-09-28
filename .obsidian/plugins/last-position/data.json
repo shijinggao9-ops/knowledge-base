@@ -690,6 +690,10 @@
       "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/README.md": {
         "height": 40.43401805552456,
         "lastAccessed": 1790577618275
+      },
+      "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/projects/image-platform.md": {
+        "height": 40.60242975803844,
+        "lastAccessed": 1790577667633
       }
     },
     "leaves": {
@@ -704,9 +708,9 @@
         "lastAccessed": 1787892910677
       },
       "9fd373b8a4ff678e": {
-        "height": 40.43401805552456,
-        "lastAccessed": 1790577618275,
-        "filePath": "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/README.md"
+        "height": 40.60242975803844,
+        "lastAccessed": 1790577667633,
+        "filePath": "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/projects/image-platform.md"
       },
       "f99b78388d4d5843": {
         "filePath": "01-MOC/商科全能知识库.md",
@@ -1420,6 +1424,10 @@
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/README.md": {
       "height": 40.43401805552456,
       "lastAccessed": 1790577618275
+    },
+    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/projects/image-platform.md": {
+      "height": 40.60242975803844,
+      "lastAccessed": 1790577667633
     }
   },
   "listenEvent": "mouseover",

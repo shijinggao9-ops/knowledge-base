@@ -268,8 +268,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9fd373b8a4ff678e",
+  "active": "49ec8594f6111d55",
   "lastOpenFiles": [
+    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/practice-questions/question_list.md",
+    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/practice-questions",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/projects/knowledge-rag.md",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/projects/customer-service.md",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/projects/commercial-site.md",
@@ -300,7 +302,6 @@
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/public/images/generated/course/stage-07-advanced-ai-pm/02-growth-and-retention",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/public/images/generated/course/stage-07-advanced-ai-pm/04-model-cost-optimization",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/public/images/generated/course/stage-06-real-projects/07-stage-project-portfolio",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/public/images/generated/course/stage-06-real-projects/06-ai-saas-commercialization-project",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/index.md",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/07-career-development.md",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/04-model-cost-optimization.md",
@@ -314,7 +315,6 @@
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/01-commercialization.md",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-06-real-projects/05-ai-agent-workflow-project.md",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-06-real-projects/04-ai-customer-service-project.md",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-06-real-projects/03-ai-image-platform-project.md",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-06-real-projects/02-rag-knowledge-base-project.md"
+    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-06-real-projects/03-ai-image-platform-project.md"
   ]
 }
