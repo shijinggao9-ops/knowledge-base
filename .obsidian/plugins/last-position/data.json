@@ -686,6 +686,10 @@
       "40-思维与认知/40-3 决策分析框架/40-3-0 思维框架/thinking-frameworks-main/CONTRIBUTING.md": {
         "height": 61.03508571156284,
         "lastAccessed": 1790576761179
+      },
+      "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/README.md": {
+        "height": 40.43401805552456,
+        "lastAccessed": 1790577618275
       }
     },
     "leaves": {
@@ -700,9 +704,9 @@
         "lastAccessed": 1787892910677
       },
       "9fd373b8a4ff678e": {
-        "height": 189.81689091732628,
-        "lastAccessed": 1790577202165,
-        "filePath": "99-Archive/Markdown写法完全指南_Obsidian专用.md"
+        "height": 40.43401805552456,
+        "lastAccessed": 1790577618275,
+        "filePath": "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/README.md"
       },
       "f99b78388d4d5843": {
         "filePath": "01-MOC/商科全能知识库.md",
@@ -1412,6 +1416,10 @@
     "40-思维与认知/40-3 决策分析框架/40-3-0 思维框架/thinking-frameworks-main/CONTRIBUTING.md": {
       "height": 61.03508571156284,
       "lastAccessed": 1790576761179
+    },
+    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/README.md": {
+      "height": 40.43401805552456,
+      "lastAccessed": 1790577618275
     }
   },
   "listenEvent": "mouseover",

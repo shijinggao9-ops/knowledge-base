@@ -1,0 +1,9 @@
+/.github
+/node_modules/
+node_modules/
+/dist/
+/hf-ai-pm-promo/
+hf-ai-pm-promo/
+*.log
+node_modules/
+memory/
