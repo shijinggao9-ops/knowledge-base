@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "profile": "hehe-industry-researcher-public-full",
+  "entry_skill": "hehe-industry-researcher",
+  "install_policy": "full-bundle",
+  "install_policy_notes": "作为完整行业或企业研究总入口发布时，entry_skill 与 13 个 required_specialty_skills 必须一同安装；任一专项 Skill 都可由用户直接调用，不因总入口已安装而重新路由。部分安装只能交付已具备专项或有限范围研究，不得称为完整行业或企业研究。研究辅助能力均为可选增强，不是启动条件。",
+  "required_specialty_skills": [
+    {
+      "name": "hehe-market-sizing",
+      "suite_path": "skills/hehe-market-sizing"
+    },
+    {
+      "name": "hehe-industry-chain-map",
+      "suite_path": "skills/hehe-industry-chain-map"
+    },
+    {
+      "name": "hehe-business-model",
+      "suite_path": "skills/hehe-business-model"
+    },
+    {
+      "name": "hehe-competitive-landscape",
+      "suite_path": "skills/hehe-competitive-landscape"
+    },
+    {
+      "name": "hehe-trend-analysis",
+      "suite_path": "skills/hehe-trend-analysis"
+    },
+    {
+      "name": "hehe-pest-analysis",
+      "suite_path": "skills/hehe-pest-analysis"
+    },
+    {
+      "name": "hehe-company-profile",
+      "suite_path": "skills/hehe-company-profile"
+    },
+    {
+      "name": "hehe-industry-drivers",
+      "suite_path": "skills/hehe-industry-drivers"
+    },
+    {
+      "name": "hehe-industry-pain-points",
+      "suite_path": "skills/hehe-industry-pain-points"
+    },
+    {
+      "name": "hehe-investment-logic",
+      "suite_path": "skills/hehe-investment-logic"
+    },
+    {
+      "name": "hehe-financial-analysis",
+      "suite_path": "skills/hehe-financial-analysis"
+    },
+    {
+      "name": "hehe-governance-capital-allocation",
+      "suite_path": "skills/hehe-governance-capital-allocation"
+    },
+    {
+      "name": "hehe-valuation-analysis",
+      "suite_path": "skills/hehe-valuation-analysis"
+    }
+  ],
+  "optional_capability_types": [
+    "网页搜索或浏览",
+    "公开信息采集",
+    "搜索或数据 MCP/API",
+    "PDF、Office、网页正文或 OCR 解析",
+    "材料审核、报告写作或交付质检",
+    "电子表格生成与公式重算"
+  ],
+  "shared_public_files": [],
+  "required_local_files": [
+    "references/研究开题流程.md",
+    "references/简单开题模板.md",
+    "references/研究项目目录模板.md",
+    "references/信息搜索流程.md",
+    "references/分析准备流程.md",
+    "references/研究Skill职能结构.md",
+    "references/专项分析与交付流程.md",
+    "references/最终交付流程.md",
+    "references/HTML报告交付规范.md",
+    "assets/研究报告HTML模板.html",
+    "scripts/build-html-report.py"
+  ],
+  "excluded_from_public_package": [
+    "_本地维护",
+    "90_历史备份",
+    "credentials",
+    "root-junctions",
+    "runtime-caches"
+  ]
+}

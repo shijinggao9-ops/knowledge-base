@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "display_name": "盒盒行业研究技能包",
+  "repository_slug": "hehe-industry-research-skill-pack",
+  "version": "2026.09.21-rc7",
+  "namespace": "hehe-",
+  "entry_skill": "hehe-industry-researcher",
+  "skills": [
+    {
+      "name": "hehe-industry-researcher",
+      "role": "router"
+    },
+    {
+      "name": "hehe-market-sizing",
+      "role": "specialty"
+    },
+    {
+      "name": "hehe-industry-chain-map",
+      "role": "specialty"
+    },
+    {
+      "name": "hehe-business-model",
+      "role": "specialty"
+    },
+    {
+      "name": "hehe-competitive-landscape",
+      "role": "specialty"
+    },
+    {
+      "name": "hehe-pest-analysis",
+      "role": "specialty"
+    },
+    {
+      "name": "hehe-trend-analysis",
+      "role": "specialty"
+    },
+    {
+      "name": "hehe-industry-drivers",
+      "role": "specialty"
+    },
+    {
+      "name": "hehe-industry-pain-points",
+      "role": "specialty"
+    },
+    {
+      "name": "hehe-company-profile",
+      "role": "specialty"
+    },
+    {
+      "name": "hehe-financial-analysis",
+      "role": "specialty"
+    },
+    {
+      "name": "hehe-governance-capital-allocation",
+      "role": "specialty"
+    },
+    {
+      "name": "hehe-valuation-analysis",
+      "role": "specialty"
+    },
+    {
+      "name": "hehe-investment-logic",
+      "role": "specialty"
+    }
+  ],
+  "name_exceptions": [
+    "sha-hao-yong",
+    "tanzi",
+    "sou-cha-ling",
+    "baojie"
+  ],
+  "source_skill_sha256": {
+    "hehe-industry-researcher": "379d38a28eab4d4c78de87e959efc12762be77a5a57b88e0dbce5b673d6466ed",
+    "hehe-market-sizing": "2ef339d0dc1d8bf2ede5cc65611c19178e17c664ae00bff377ca2048200473e8",
+    "hehe-industry-chain-map": "2d45d077fac0d9d1325fd37f7e5dff75c3e4fae60c4914e739232ca3b294dbfa",
+    "hehe-business-model": "abb6075abcd696375c937c75b5bcb85dac19105db8406bfe385c5de6fb64abd1",
+    "hehe-competitive-landscape": "be66f37ef9bd73f4af16595d638d520d4f5ba7d07e1b81f58a6e909d1a99325d",
+    "hehe-pest-analysis": "d4ee3633325ea5e511b9a8a86bd65de1953ff9bc13dd867e7032c5c3d54a660d",
+    "hehe-trend-analysis": "1c65fcd69c6685b242cfbbaaf0415f36f6062eb9bad4375aa3ee1b491ced963f",
+    "hehe-industry-drivers": "0dfcad39b22a31ec06a113dcb32d2a82ca0538d1f56f1f7e7bf2bfc0c5704125",
+    "hehe-industry-pain-points": "fc0b6e32364f40eefead70e7f8356816ba3d57eda6f3d3ef4672cf168055b94a",
+    "hehe-company-profile": "5b35e982790e8deb58337b8224ed3db448e31799bb7f8d848645041f681bdbfc",
+    "hehe-financial-analysis": "81019baa28121813507608b1a29505985dc711b011eab132b41282730380a664",
+    "hehe-governance-capital-allocation": "d728663fbb839a66cb0885b1eb1019625bbb3801f0ca8aa773200b57a7f7780f",
+    "hehe-valuation-analysis": "5230389649fcf37b1b425fc6e5959080a6831c31b88709e462f8e4380122e95a",
+    "hehe-investment-logic": "6b15469b18f33aec4afe405f2f82195296a729c307edfeac7434225d4c079286"
+  },
+  "license": "MIT"
+}
