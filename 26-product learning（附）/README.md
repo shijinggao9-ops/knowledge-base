@@ -16,7 +16,7 @@ C44 is a Tier-1 role course, sized long (12 weeks) because it goes all the way �
 - **Working-professional pace:** 6 months · ~14 hrs/week
 - **Evening pace:** 12 months · ~7 hrs/week
 
-See [`SYLLABUS.md`](SYLLABUS.md).
+See [`SYLLABUS.md`](26-product%20learning（附）/SYLLABUS.md).
 
 ---
 
