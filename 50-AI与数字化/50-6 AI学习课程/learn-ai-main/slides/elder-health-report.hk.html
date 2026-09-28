@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-HK" data-xa-login="direct">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI 將箭頭講成咗病｜爸媽版第 04 章</title>
+<meta name="description" content="練習識別 AI 將報告箭頭講成診斷嘅答錯方式。">
+<meta property="og:image" content="https://xueai.miyang.cn/slides/og/og-default.jpg">
+<link rel="stylesheet" href="elder-lesson.css?v=20260901b">
+<link rel="stylesheet" href="elder-font-size.css?v=20260824a">
+<link rel="stylesheet" href="elder-mood.css?v=20260825a">
+<style>
+.course-top .el-top-in{max-width:1200px}.lesson-back{min-height:44px;display:inline-flex;align-items:center;font-size:17px;font-weight:800}.single-page{display:block;max-width:1200px}.single-page .el-main{max-width:1200px;margin:auto}
+.ask-card{padding:20px;border:1px solid var(--line);border-radius:18px;background:#fff}.ask-card small{color:var(--clay);font-weight:800}
+.user-bubble,.ai-bubble{max-width:92%;padding:15px 17px;border-radius:16px;font-size:18px;line-height:1.75}
+.user-bubble{margin:10px 0 0 auto;background:var(--forest);color:#fff}
+.ai-bubble{margin-top:12px;background:#fff1ea}.ai-bubble strong{color:#7a392b}
+.report-line{margin-top:14px;padding:18px;display:grid;grid-template-columns:1.5fr 1fr 1.2fr;gap:12px;border-radius:14px;background:var(--paper-2)}.report-line b,.report-line strong{font-size:19px}.report-line strong{color:var(--clay)}.report-line span{color:var(--muted)}
+.focus-card{transition:.2s ease}.focus-card.active{background:#fff1ea}
+.el-result.correct{color:#194f39;background:#deeee0}.el-result.rethink{color:#713326;background:var(--clay-soft)}
+.analysis-next{width:100%;min-height:58px;margin-top:15px;border:0;border-radius:13px;color:#fff;background:var(--forest);cursor:pointer;font-size:18px;font-weight:800}.analysis-next:disabled{opacity:.6}
+.lesson-summary{margin-top:28px}.safety-note{margin-top:20px;padding:20px;border:1px dashed rgba(189,105,85,.6);border-radius:17px;background:var(--clay-soft)}.safety-note strong{color:#7a392b;font-size:18px}.safety-note p{margin:7px 0 0;font-size:17px;line-height:1.8}
+.prompt-box{margin-top:14px;padding:16px;border:1px dashed rgba(189,105,85,.55);border-radius:14px;background:var(--clay-soft);color:#61483f;font-size:17px;line-height:1.85}
+@media(max-width:820px){.course-top{height:auto;min-height:104px}.course-top .el-top-in{padding:9px 17px;display:flex;flex-wrap:wrap}.lesson-back{flex:1}.course-top .elder-font-controls{width:100%}.single-page{padding-top:22px}.report-line{grid-template-columns:1fr 1fr}.report-line span{grid-column:1/-1}}
+@media(max-width:540px){.report-line{grid-template-columns:1fr}.report-line span{grid-column:auto}.ask-card{padding:16px}.user-bubble,.ai-bubble{max-width:100%}}
+@media(prefers-reduced-motion:reduce){.focus-card{transition:none}.el-teacher-body{animation:none!important}}
+</style>
+<link rel="canonical" href="https://xueai.miyang.cn/slides/elder-health-report.hk.html">
+<link rel="alternate" hreflang="zh-CN" href="https://xueai.miyang.cn/slides/elder-health-report.html">
+<link rel="alternate" hreflang="zh-TW" href="https://xueai.miyang.cn/slides/elder-health-report.tw.html">
+<link rel="alternate" hreflang="zh-HK" href="https://xueai.miyang.cn/slides/elder-health-report.hk.html">
+<link rel="alternate" hreflang="zh-MO" href="https://xueai.miyang.cn/slides/elder-health-report.hk.html">
+<link rel="alternate" hreflang="x-default" href="https://xueai.miyang.cn/slides/elder-health-report.html">
+<meta property="og:url" content="https://xueai.miyang.cn/slides/elder-health-report.hk.html">
+<meta property="og:site_name" content="xueai.miyang.cn · AI 產品經理培訓">
+<meta property="og:locale" content="zh_HK">
+</head>
+<body data-correct="mark">
+<header class="el-top course-top">
+  <div class="el-top-in">
+    <a class="lesson-back" href="elder-learn.html">← 返去爸媽版課程</a>
+    <span class="el-spacer"></span>
+    <div class="elder-font-controls" data-elder-font-controls></div>
+  </div>
+</header>
+
+<div class="el-page single-page">
+<main class="el-main">
+  <section class="el-hero reveal">
+    <div class="el-kicker">第 04 章 · 第 1 課 · 約 8 分鐘</div>
+    <h1>AI 將箭頭講成咗病</h1>
+    <p>最慳事係影呢一行。箭頭淨係標記。AI 講得再肯定，亦唔可以將一個標記直接講成診斷。</p>
+    <span class="el-teacher-tag">艾莉主講</span>
+    <div class="el-hero-art"><img src="elder-course-04.jpg?v=20260825a" alt="艾莉陪長者閲讀體檢報告"></div>
+  </section>
+
+  <section class="el-section-head reveal">
+    <div class="el-section-no">01</div>
+    <div><h2>先睇呢段 AI 回答，再講佢穩唔穩妥</h2><p>下面係虛構嘅教學對話。醫學數字淨係用嚟練習點問 AI。</p></div>
+  </section>
+
+  <section class="el-lab reveal">
+    <div class="el-lab-head">
+      <strong>判斷練習 · AI 點樣答錯</strong>
+      <div class="el-step-status"><i></i><span id="lessonStatus">請先做完判斷</span></div>
+    </div>
+    <div class="el-lab-body">
+      <div class="el-cols waiting" id="lessonColumns">
+        <div>
+          <div class="ask-card">
+            <small>有人咁問 AI</small>
+            <div class="user-bubble">報告上面有個向上箭頭，我係唔係病咗？</div>
+            <div class="ai-bubble" id="focusReply">你已經<strong>確診高血脂</strong>。請即刻開始治療，必要時先將而家嘅藥停咗。</div>
+            <div class="report-line focus-card" id="focusRow">
+              <b>低密度脂蛋白膽固醇</b>
+              <strong>3.62 mmol/L ↑</strong>
+              <span>本報告參考範圍：&lt; 3.40（教學示例）</span>
+            </div>
+          </div>
+          <div class="el-choices" id="lessonChoices">
+            <button class="el-choice" type="button" data-choice="disease">呢段回答可靠，箭頭就係病</button>
+            <button class="el-choice" type="button" data-choice="mark">不可靠，AI 將標記講成診斷</button>
+          </div>
+          <div class="el-result" id="lessonResult" role="status" aria-live="polite"></div>
+        </div>
+
+        <div class="el-teacher" id="lessonTeacher" hidden>
+          <div class="el-teacher-head">
+            <img class="mood-frame" id="lessonMood" src="alice-mood-curious.jpg?v=20260825a" data-alice-mood="curious" alt="艾莉">
+            <div><b>艾莉嘅串行分析</b><span>一共 3 步</span></div>
+          </div>
+          <div class="el-teacher-body" id="lessonStage">
+            <small>判斷已經記錄</small>
+            <h3>跟住一小步一小步睇</h3>
+            <p>我哋淨係檢查 AI 將邊一步講錯咗。</p>
+          </div>
+          <button class="analysis-next" id="lessonNext" type="button">睇第 1 步 →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="lessonFollowup" class="lesson-summary" hidden data-elder-completion>
+    <div class="el-method reveal show">
+      <div class="el-method-mark">標</div>
+      <div>
+        <h3>箭頭係標記，唔係病名。</h3>
+        <p>AI 最容易犯嘅錯，係將「↑ / ↓」直接講成確診，再順口指揮下一步。</p>
+      </div>
+    </div>
+    <div class="prompt-box">
+      <strong>最慳事：將呢一行影俾 AI</strong>
+      <div class="say-tiers">
+        <div class="say-tier"><small>一句能講</small><p>「請淨係解釋呢個箭頭，唔好診斷。」</p></div>
+        <div class="say-tier"><small>兩句能念</small><p>「呢個係化驗單上面嘅箭頭。請解釋佢通常表示咩，唔好建議停藥。」</p></div>
+        <div class="say-tier"><small>想講完整嗰陣</small><p>「請淨係解釋呢個箭頭通常表示咩。唔好診斷，唔好建議停藥、加藥或改藥。最後請提醒我將完整一行帶去問醫生。」</p></div>
+      </div>
+    </div>
+    <div class="safety-note">
+      <strong>醫療邊界</strong>
+      <p>本課唔診斷、唔評估呢項數字有冇臨牀意義。唔好根據 AI 回答自行停藥、加藥或改藥。明顯唔舒服或情況緊急時，請及時聯絡醫療機構或急救服務。</p>
+    </div>
+  </div>
+</main>
+</div>
+
+<script src="track.js?v=20260806" async></script>
+<script src="elder-lesson.js?v=20260901d"></script>
+<script src="elder-font-size.js?v=20260827a"></script>
+<script src="confetti.js?v=20260825a"></script>
+<script src="elder-mood.js?v=20260825b"></script>
+<script>
+(() => {
+  const analyses = [
+    { label:'第一步 · 睇 AI 點樣答錯', title:'佢將箭頭講成咗病', text:'問嘅係「標記係咩意思」，佢卻回答「已經確診」，仲指揮停藥。呢個已經越過解釋詞嘅邊界。' },
+    { label:'第二步 · 睇報告原話', title:'箭頭淨係標出「超出本報告範圍」', text:'3.62 高於呢張教學報告列出嘅 3.40，所以出現向上箭頭。佢提醒繼續核對，唔等於病名。' },
+    { label:'第三步 · 換一種問法', title:'請 AI 解釋標記，唔好下結論', text:'穩陣嘅問法係：解釋呢個符號、標出唔確定、提醒帶去問醫生。係唔係有臨牀意義，只能由醫生判斷。' }
+  ];
+  const status = document.getElementById('lessonStatus');
+  const result = document.getElementById('lessonResult');
+  const choices = document.getElementById('lessonChoices');
+  const columns = document.getElementById('lessonColumns');
+  const teacher = document.getElementById('lessonTeacher');
+  const stage = document.getElementById('lessonStage');
+  const next = document.getElementById('lessonNext');
+  const followup = document.getElementById('lessonFollowup');
+  const mood = document.getElementById('lessonMood');
+  const focus = document.getElementById('focusRow');
+  const reply = document.getElementById('focusReply');
+  let correct = false;
+  let step = 0;
+
+  function setMood(name, cheer = false) {
+    if (window.ElderMood) window.ElderMood.set(mood, name, { cheer });
+  }
+
+  choices.addEventListener('click', (event) => {
+    const button = event.target.closest('[data-choice]');
+    if (!button || teacher.hidden === false) return;
+    correct = button.dataset.choice === document.body.dataset.correct;
+    choices.querySelectorAll('button').forEach((item) => { item.disabled = true; });
+    button.disabled = false;
+    button.classList.add('selected');
+    result.className = `el-result show ${correct ? 'correct' : 'rethink'}`;
+    result.textContent = correct
+      ? '判斷啱喇。AI 將一個標記講成咗診斷，仲越界講到用藥。'
+      : '呢段話聽落好肯定，但箭頭唔係病名。我哋一齊睇佢錯喺邊一句。';
+    status.textContent = correct ? '判斷啱喇 · 請睇分析' : '已經收到判斷 · 請睇分析';
+    focus.classList.add('active');
+    reply.classList.add('active');
+    columns.classList.remove('waiting');
+    teacher.hidden = false;
+    setMood(correct ? 'praise' : 'comfort', correct);
+    if (window.ElderFontSize) window.ElderFontSize.refresh(teacher);
+  });
+
+  next.addEventListener('click', () => {
+    if (step < analyses.length) {
+      const item = analyses[step];
+      stage.classList.remove('change');
+      stage.innerHTML = `<small>${item.label}</small><h3>${item.title}</h3><p>${item.text}</p>`;
+      void stage.offsetWidth;
+      stage.classList.add('change');
+      step += 1;
+      status.textContent = `艾莉而家分析緊 · ${step} / ${analyses.length}`;
+      setMood('explain');
+      next.textContent = step < analyses.length ? `睇第 ${step + 1} 步 →` : '完成再睇總結 →';
+      if (window.ElderFontSize) window.ElderFontSize.refresh(stage);
+      return;
+    }
+    status.textContent = '呢課完成';
+    next.hidden = true;
+    focus.classList.remove('active');
+    if (window.ElderLesson) window.ElderLesson.expandAnalysis(stage, analyses, '呢課完整分析');
+    followup.hidden = false;
+    setMood(correct ? 'celebrate' : 'praise', true);
+    if (window.ElderFontSize) window.ElderFontSize.refresh(followup);
+  });
+})();
+</script>
+<script src="i18n.js?v=20260903c"></script>
+</body>
+</html>
