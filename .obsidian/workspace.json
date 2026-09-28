@@ -23,18 +23,6 @@
             }
           },
           {
-            "id": "cf646e5dce6b0a9b",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/img/00 SQL基础课程.png"
-              },
-              "icon": "lucide-image",
-              "title": "00 SQL基础课程"
-            }
-          },
-          {
             "id": "ba4bcf985ccf55eb",
             "type": "leaf",
             "state": {
@@ -295,8 +283,21 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "cf646e5dce6b0a9b",
+  "active": "49ec8594f6111d55",
   "lastOpenFiles": [
+    "40-思维与认知/40-3 决策分析框架/40-3-0 思维框架/thinking-frameworks-main/frameworks/strategic/SWOT.md",
+    "40-思维与认知/40-3 决策分析框架/40-3-0 思维框架/thinking-frameworks-main/CONTRIBUTING.md",
+    "40-思维与认知/40-3 决策分析框架/40-3-0 思维框架/thinking-frameworks-main/frameworks/decision/decision-matrix.md",
+    "40-思维与认知/40-3 决策分析框架/40-3-0 思维框架/thinking-frameworks-main/frameworks/analytical/5-Whys.md",
+    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/img/00 SQL基础课程.png",
+    "40-思维与认知/40-3 决策分析框架/40-3-0 思维框架/thinking-frameworks-main/frameworks/strategic",
+    "40-思维与认知/40-3 决策分析框架/40-3-0 思维框架/thinking-frameworks-main/frameworks/decision",
+    "40-思维与认知/40-3 决策分析框架/40-3-0 思维框架/thinking-frameworks-main/frameworks/analytical",
+    "40-思维与认知/40-3 决策分析框架/40-3-0 思维框架/thinking-frameworks-main/frameworks",
+    "40-思维与认知/40-3 决策分析框架/40-3-0 思维框架/thinking-frameworks-main/README.md",
+    "40-思维与认知/40-3 决策分析框架/40-3-0 思维框架/thinking-frameworks-main",
+    "40-思维与认知/40-3 决策分析框架/40-3-0 思维框架",
+    "40-思维与认知/40-3 决策分析框架/新建文件夹",
     "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/img/ch00/ch0056.png",
     "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/img/ch00/ch0054.png",
     "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/img/ch00/ch0067.png",
@@ -306,20 +307,11 @@
     "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/img/ch00/ch00541.png",
     "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/img/ch01/ch01.02表的示例.jpg",
     "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/img/ch01/ch01.01系统结构.jpg",
-    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/img/ch00/ch0030.png",
-    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/img/ch00/ch0013.png",
     "20-数据与工具/20-2 SQL/20-2-4 SQL面试与实战应用.md",
     "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/materials/free_navicat_download/baidu_cloud_url.md",
     "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/materials/free_navicat_download",
     "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/materials/create_table_sql/world.sql",
     "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/materials/create_table_sql/决胜秋招-建表语句.sql",
-    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/materials/create_table_sql/shop.sql",
-    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/materials/create_table_sql",
-    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/materials/SQL基础教程-V2.0.pdf",
-    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/img/Question_C",
-    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/img/ch05",
-    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/img/ch04",
-    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/img/ch03",
     "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/README.md",
     "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/ch06_决胜秋招.md",
     "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/ch05_SQL高级处理.md",
@@ -337,11 +329,6 @@
     "20-数据与工具/20-1 Excel/20-1-0 Excel专业课程（English）/curriculum/week-12-capstone-automation-and-dashboard/lecture-notes/02-apps-script-automation.md",
     "20-数据与工具/20-1 Excel/20-1-0 Excel专业课程（English）/curriculum/week-12-capstone-automation-and-dashboard/lecture-notes/01-macros-and-vba.md",
     "20-数据与工具/20-1 Excel/20-1-0 Excel专业课程（English）/curriculum/week-12-capstone-automation-and-dashboard/mini-project/README.md",
-    "20-数据与工具/20-1 Excel/20-1-0 Excel专业课程（English）/curriculum/week-12-capstone-automation-and-dashboard/exercises/exercise-03-one-click-refresh.md",
-    "20-数据与工具/20-1 Excel/20-1-0 Excel专业课程（English）/curriculum/week-12-capstone-automation-and-dashboard/exercises/README.md",
-    "20-数据与工具/20-1 Excel/20-1-0 Excel专业课程（English）/curriculum/week-12-capstone-automation-and-dashboard/exercises/exercise-02-apps-script-menu.md",
-    "20-数据与工具/20-1 Excel/20-1-0 Excel专业课程（English）/curriculum/week-12-capstone-automation-and-dashboard/exercises/exercise-01-record-first-macro.md",
-    "20-数据与工具/20-1 Excel/20-1-0 Excel专业课程（English）/curriculum/week-11-power-query-and-data-connections/lecture-notes/03-merge-append-refresh.md",
-    "20-数据与工具/20-1 Excel/20-1-0 Excel专业课程（English）/curriculum/week-12-capstone-automation-and-dashboard/challenges/README.md"
+    "20-数据与工具/20-1 Excel/20-1-0 Excel专业课程（English）/curriculum/week-12-capstone-automation-and-dashboard/exercises/exercise-03-one-click-refresh.md"
   ]
 }
