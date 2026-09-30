@@ -8,48 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d0d4ff841224d00a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "85-岗位图谱/85-15 商务BD.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "85-15 商务BD"
-            }
-          },
-          {
             "id": "9fd373b8a4ff678e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-商业核心/10-7 商业案例分析库/10-7-1 行业研究技能包/hehe-industry-research-skill-pack-main/skills/hehe-business-model/references/商业模式分析交付模板.md",
+                "file": "10-商业核心/10-7 商业案例分析库/10-7-1 行业研究技能包/hehe-industry-research-skill-pack-main/skills/hehe-industry-drivers/SKILL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "商业模式分析交付模板"
-            }
-          },
-          {
-            "id": "c203bd7024b3f7d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "90-项目与复盘/90-2 游戏项目/90-2-1_游戏全体系探索/90-2-1-23 火影忍者策划报告.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "90-2-1-23 火影忍者策划报告"
+              "title": "SKILL"
             }
           },
           {
@@ -58,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "87-面试问题准备/87-1 游戏策划面试.md",
+                "file": "10-商业核心/10-1 经济学基础/10-1-3 市场结构与竞争策略.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "87-1 游戏策划面试"
+              "title": "10-1-3 市场结构与竞争策略"
             }
           }
         ],
@@ -268,8 +238,18 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9fd373b8a4ff678e",
+  "active": "9a2c33b5a9c4395c",
   "lastOpenFiles": [
+    "10-商业核心/10-1 经济学基础/10-1-1 需求、供给与市场均衡.md",
+    "10-商业核心/10-1 经济学基础/10-1-5 宏观经济政策、周期与开放经济.md",
+    "90-项目与复盘/90-2 游戏项目/90-2-1_游戏全体系探索/90-2-1-1 拆解总索引_MOC.md",
+    "87-面试问题准备/87-1 游戏策划面试.md",
+    "10-商业核心/10-7 商业案例分析库/10-7-1 行业研究技能包/hehe-industry-research-skill-pack-main/skills/hehe-industry-drivers/SKILL.md",
+    "10-商业核心/10-7 商业案例分析库/10-7-1 行业研究技能包/hehe-industry-research-skill-pack-main/skills/hehe-competitive-landscape/SKILL.md",
+    "10-商业核心/10-7 商业案例分析库/10-7-1 行业研究技能包/hehe-industry-research-skill-pack-main/skills/hehe-company-profile/SKILL.md",
+    "85-岗位图谱/85-5 互联网产品经理.md",
+    "10-商业核心/10-7 商业案例分析库/10-7-1 行业研究技能包/hehe-industry-research-skill-pack-main/skills/hehe-governance-capital-allocation/SKILL.md",
+    "10-商业核心/10-7 商业案例分析库/10-7-1 行业研究技能包/hehe-industry-research-skill-pack-main/skills/hehe-business-model/references/商业模式分析交付模板.md",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/src/data/animations/userResearchFlow.ts",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/src/data/animations/requirementAnalysisFlow.ts",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/src/data/animations/streamingResponseFlow.ts",
@@ -280,7 +260,6 @@
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/src/data/animations/customerServiceFlow.ts",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/src/data/animations/commercializationFunnel.ts",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/src/data/animations/compareAnimations.ts",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/src/data/animations/apiCallFlow.ts",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/src/assets/logo.png",
     "10-商业核心/10-7 商业案例分析库/10-7-1 行业研究技能包/hehe-industry-research-skill-pack-main/docs/images/html-report-cover.png",
     "10-商业核心/10-7 商业案例分析库/10-7-1 行业研究技能包/hehe-industry-research-skill-pack-main/docs/images/html-report-summary.png",
@@ -306,15 +285,6 @@
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/public/images/generated/course/stage-07-advanced-ai-pm/07-career-development/07-career-development-scenario-map.png",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/public/images/generated/course/stage-07-advanced-ai-pm/index/stage-07-advanced-ai-pm-learning-map.png",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/index.md",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/07-career-development.md",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/04-model-cost-optimization.md",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/05-risk-compliance-and-safety.md",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/06-portfolio-and-interview.md",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/03-data-metrics.md",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/02-growth-and-retention.md",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-06-real-projects/index.md",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-06-real-projects/07-stage-project-portfolio.md",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-06-real-projects/06-ai-saas-commercialization-project.md",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/01-commercialization.md"
+    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/07-career-development.md"
   ]
 }
