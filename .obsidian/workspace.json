@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-商业核心/10-1 经济学基础/10-1-3 市场结构与竞争策略.md",
+                "file": "10-商业核心/10-1 经济学基础/10-1-4 宏观经济核心指标与总需求.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "10-1-3 市场结构与竞争策略"
+              "title": "10-1-4 宏观经济核心指标与总需求"
             }
           }
         ],
@@ -240,6 +240,7 @@
   },
   "active": "9a2c33b5a9c4395c",
   "lastOpenFiles": [
+    "10-商业核心/10-1 经济学基础/10-1-3 市场结构与竞争策略.md",
     "10-商业核心/10-1 经济学基础/10-1-1 需求、供给与市场均衡.md",
     "10-商业核心/10-1 经济学基础/10-1-5 宏观经济政策、周期与开放经济.md",
     "90-项目与复盘/90-2 游戏项目/90-2-1_游戏全体系探索/90-2-1-1 拆解总索引_MOC.md",
@@ -284,7 +285,6 @@
     "99-Archive/Markdown写法完全指南_Obsidian专用.md",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/public/images/generated/course/stage-07-advanced-ai-pm/07-career-development/07-career-development-scenario-map.png",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/public/images/generated/course/stage-07-advanced-ai-pm/index/stage-07-advanced-ai-pm-learning-map.png",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/index.md",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/07-career-development.md"
+    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-07-advanced-ai-pm/index.md"
   ]
 }

@@ -708,8 +708,12 @@
         "lastAccessed": 1790732451924
       },
       "10-商业核心/10-1 经济学基础/10-1-3 市场结构与竞争策略.md": {
-        "height": 90.51805222829184,
-        "lastAccessed": 1790734253272
+        "height": 259.56547504001196,
+        "lastAccessed": 1790745058443
+      },
+      "10-商业核心/10-1 经济学基础/10-1-4 宏观经济核心指标与总需求.md": {
+        "height": 33.9122989654541,
+        "lastAccessed": 1790745444918
       }
     },
     "leaves": {
@@ -724,9 +728,9 @@
         "lastAccessed": 1787892910677
       },
       "9fd373b8a4ff678e": {
+        "filePath": "10-商业核心/10-7 商业案例分析库/10-7-1 行业研究技能包/hehe-industry-research-skill-pack-main/skills/hehe-industry-drivers/SKILL.md",
         "height": 0,
-        "lastAccessed": 1790732451924,
-        "filePath": "10-商业核心/10-7 商业案例分析库/10-7-1 行业研究技能包/hehe-industry-research-skill-pack-main/skills/hehe-industry-drivers/SKILL.md"
+        "lastAccessed": 1790732451924
       },
       "f99b78388d4d5843": {
         "filePath": "01-MOC/商科全能知识库.md",
@@ -749,9 +753,9 @@
         "lastAccessed": 1788154738230
       },
       "9a2c33b5a9c4395c": {
-        "height": 90.51805222829184,
-        "lastAccessed": 1790734253272,
-        "filePath": "10-商业核心/10-1 经济学基础/10-1-3 市场结构与竞争策略.md"
+        "height": 33.9122989654541,
+        "lastAccessed": 1790745444918,
+        "filePath": "10-商业核心/10-1 经济学基础/10-1-4 宏观经济核心指标与总需求.md"
       }
     },
     "bookmarks": {}
@@ -1458,8 +1462,12 @@
       "lastAccessed": 1790732451924
     },
     "10-商业核心/10-1 经济学基础/10-1-3 市场结构与竞争策略.md": {
-      "height": 90.51805222829184,
-      "lastAccessed": 1790734253272
+      "height": 259.56547504001196,
+      "lastAccessed": 1790745058443
+    },
+    "10-商业核心/10-1 经济学基础/10-1-4 宏观经济核心指标与总需求.md": {
+      "height": 33.9122989654541,
+      "lastAccessed": 1790745444918
     }
   },
   "listenEvent": "mouseover",
