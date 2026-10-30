@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -248,8 +248,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f283f97e72b9551f",
+  "active": "9a2c33b5a9c4395c",
   "lastOpenFiles": [
+    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-06-real-projects/06-ai-saas-commercialization-project.md",
     "01-MOC/技能提升.md",
     "10-商业核心/10-4 市场营销/10-4-1 营销核心概念与STP战略.md",
     "10-商业核心/10-5 战略管理/10-5-1 战略管理概述与战略层次.md",
@@ -289,7 +290,6 @@
     "05-计算机基础与办公效率/05-1 操作系统与文件管理.md",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/projects/image-platform.md",
     "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/practice-questions/question_list.md",
-    "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/projects/knowledge-rag.md",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/promo-video/media/learn.png",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/promo-video/media/home.png",
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/promo-video/media/glossary-rag.png",
