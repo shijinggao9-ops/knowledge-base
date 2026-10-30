@@ -726,6 +726,18 @@
       "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-06-real-projects/06-ai-saas-commercialization-project.md": {
         "height": 0,
         "lastAccessed": 1792920755257
+      },
+      "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/materials/附录1：SQL语法规范.md": {
+        "height": 50.91615137082978,
+        "lastAccessed": 1793359870692
+      },
+      "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/ch00_环境搭建.md": {
+        "height": 0,
+        "lastAccessed": 1793359908204
+      },
+      "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/practice-questions/question_list.md": {
+        "height": 0,
+        "lastAccessed": 1793359944778
       }
     },
     "leaves": {
@@ -765,14 +777,14 @@
         "lastAccessed": 1788154738230
       },
       "9a2c33b5a9c4395c": {
-        "height": 37.66071380130828,
-        "lastAccessed": 1792920828625,
-        "filePath": "01-MOC/技能提升.md"
+        "height": 0,
+        "lastAccessed": 1793359944778,
+        "filePath": "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/practice-questions/question_list.md"
       },
       "f283f97e72b9551f": {
+        "filePath": "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-06-real-projects/06-ai-saas-commercialization-project.md",
         "height": 0,
-        "lastAccessed": 1792920755257,
-        "filePath": "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-06-real-projects/06-ai-saas-commercialization-project.md"
+        "lastAccessed": 1792920755257
       }
     },
     "bookmarks": {}
@@ -1497,6 +1509,18 @@
     "50-AI与数字化/50-6 AI 产品经理成长路线/ai-pm-roadmap-main/content/course/stage-06-real-projects/06-ai-saas-commercialization-project.md": {
       "height": 0,
       "lastAccessed": 1792920755257
+    },
+    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/materials/附录1：SQL语法规范.md": {
+      "height": 50.91615137082978,
+      "lastAccessed": 1793359870692
+    },
+    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/ch00_环境搭建.md": {
+      "height": 0,
+      "lastAccessed": 1793359908204
+    },
+    "20-数据与工具/20-2 SQL/20-2-1 SQL课程/wonderful-sql-main/practice-questions/question_list.md": {
+      "height": 0,
+      "lastAccessed": 1793359944778
     }
   },
   "listenEvent": "mouseover",
