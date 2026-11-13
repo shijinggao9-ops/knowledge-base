@@ -21,15 +21,12 @@
             "id": "9a2c33b5a9c4395c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "45-书籍/45-1 人人都是产品经理.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "20-数据与工具/20-2 SQL/20-2-5 SQL课程/SQL基础教程-V2.0.pdf"
               },
-              "icon": "lucide-file",
-              "title": "45-1 人人都是产品经理"
+              "icon": "lucide-file-text",
+              "title": "SQL基础教程-V2.0"
             }
           },
           {
@@ -250,8 +247,8 @@
   },
   "active": "9a2c33b5a9c4395c",
   "lastOpenFiles": [
-    "20-数据与工具/20-2 SQL/20-2-5 SQL课程/SQL基础教程-V2.0.pdf",
     "45-书籍/45-1 人人都是产品经理.md",
+    "20-数据与工具/20-2 SQL/20-2-5 SQL课程/SQL基础教程-V2.0.pdf",
     "45-书籍",
     "20-数据与工具/20-2 SQL/20-2-5 SQL课程/wonderful-sql-main/practice-questions/question_list.md",
     "20-数据与工具/20-2 SQL/20-2-5 SQL课程/wonderful-sql-main/ch00_环境搭建.md",
